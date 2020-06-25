@@ -2,8 +2,8 @@ $(function() {
 	var now = new Date();
 	$('.screen-content')
 	.fbMessenger({
-			botName: 'Rachit',
-			botLogoUrl: 'img/pp.png',
+			botName: 'Botttt',
+			botLogoUrl: src="https://raw.githubusercontent.com/213bos/jstesting/master/img/pp.png",
 			loop:false
 		})
 	.fbMessenger('start', { delay: 0 })
@@ -12,7 +12,7 @@ $(function() {
 
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: 'img/hellopika.gif',
+	imageUrl: src="https://github.com/213bos/jstesting/blob/master/img/hellopika.gif?raw=true",
 	title: '',
 	subtitle: '',
 	buttons: []
@@ -23,7 +23,7 @@ $(function() {
 	.fbMessenger('message', 'bot', 'I\'m a <b>Design Science Master\'s student</b> at the University of Michigan' , {delay: 1500 })
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: 'img/michigan.gif',
+	imageUrl: src="https://github.com/213bos/jstesting/blob/master/img/michigan.gif?raw=true",
 	title: '',
 	subtitle: '',
 	buttons: []
