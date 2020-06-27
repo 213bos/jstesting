@@ -109,7 +109,7 @@
 	top: 50%;
 	color: #007aff;
 	font-size: 140%;
-	line-height: .1em
+	line-height: 1em
 }
 
 .jsm-status-navbar .jsm-nav-left img,
@@ -194,7 +194,7 @@
 	border-top: 1px solid #cecece;
 	font-size: 150%;
 	text-align: center;
-	line-height: .5em;
+	line-height: 2.5em;
 	color: #959595;
 	position: relative
 }

@@ -34,7 +34,7 @@ $(function() {
 	.fbMessenger('message', '', '', {delay: 0 })
 	.fbMessenger('showQuickReplies', [
 		'<a href="https://google.com/" target="blank">Resume</a>',
-		'<a href="https://medium.com/@aboskovich" target="_blank">Ignored blog</a>',
+		'<a href="https://medium.com/@aboskovich" target="_blank">Other link</a>',
 		'<a href="https://www.linkedin.com/in/andrew-boskovich/" target="_blank">LinkedIn</a>'
 
 	], { timestamp: now, delay: 1500 })
